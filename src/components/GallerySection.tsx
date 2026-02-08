@@ -13,7 +13,24 @@ import photo8 from "../assets/gallery/photo8.jpeg";
 import photo9 from "../assets/gallery/photo9.jpeg";
 import photo10 from "../assets/gallery/photo10.jpeg";
 
+import photo11 from "../assets/gallery/Photo11.jpeg";
+import photo12 from "../assets/gallery/Photo12.jpeg";
+import photo15 from "../assets/gallery/Photo15.jpeg";
+import photo16 from "../assets/gallery/Photo16.jpeg";
+import photo20 from "../assets/gallery/Photo20.jpeg";
+import photo23 from "../assets/gallery/Photo23.jpeg";
+import photo25 from "../assets/gallery/Photo25.jpeg";
+import photo28 from "../assets/gallery/Photo28.jpeg";
+import photo33 from "../assets/gallery/Photo33.jpeg";
+import photo34 from "../assets/gallery/Photo34.jpeg";
+import photo36 from "../assets/gallery/Photo36.jpeg";
+import photo37 from "../assets/gallery/Photo37.jpeg";
+import photo38 from "../assets/gallery/Photo38.jpeg";
+import photo39 from "../assets/gallery/Photo39.jpeg";
+import photo40 from "../assets/gallery/Photo40.jpeg";
+
 const photos = [
+  // --- पुरानी फोटोज ---
   { src: photo1, alt: "विद्यार्थी आणि शिक्षक गट फोटो" },
   { src: photo10, alt: "शाळेचा वार्षिक कार्यक्रम" },
   { src: photo4, alt: "प्रवेशोत्सव कार्यक्रम" },
@@ -24,8 +41,24 @@ const photos = [
   { src: photo3, alt: "शिक्षिका स्वागत" },
   { src: photo8, alt: "सामूहिक फोटो" },
   { src: photo9, alt: "शाळा कार्यक्रम" },
-];
 
+  // --- नई फोटोज (New Added) ---
+  { src: photo11, alt: "शाळेच्या इमारतीसमोर विद्यार्थी व शिक्षकांचा समूह फोटो" },
+  { src: photo12, alt: "मैदानावर चित्रकला आणि हस्तकला उपक्रम" },
+  { src: photo15, alt: "शाळेच्या स्वागत फलकासह विद्यार्थी आणि कर्मचारी" },
+  { src: photo16, alt: "विद्यार्थ्यांना शैक्षणिक साहित्य आणि वह्यांचे वाटप" },
+  { src: photo20, alt: "सकाळचा व्यायाम आणि पी.टी. (PT) क्लास" },
+  { src: photo23, alt: "सांस्कृतिक कार्यक्रम आणि विद्यार्थी सादरीकरण" },
+  { src: photo25, alt: "प्रजासत्ताक दिनानिमित्त महापुरुषांच्या प्रतिमेस पुष्पहार अर्पण" },
+  { src: photo28, alt: "क्रांतीज्योती सावित्रीबाई फुले जयंती कार्यक्रम" },
+  { src: photo33, alt: "विद्यार्थ्यांचा वाढदिवस आणि केक कटिंग सोहळा" },
+  { src: photo34, alt: "मैदानावर विद्यार्थ्यांची शिस्तबद्ध कवायत (PT)" },
+  { src: photo36, alt: "स्वातंत्र्य दिन समारंभ आणि ध्वजारोहण तयारी" },
+  { src: photo37, alt: "मान्यवर पाहुण्यांचे स्वागत आणि मंच कार्यक्रम" },
+  { src: photo38, alt: "क्रीडा स्पर्धेसाठी विद्यार्थ्यांची तयारी" },
+  { src: photo39, alt: "कार्यक्रमाचा आनंद घेताना विद्यार्थी" },
+  { src: photo40, alt: "विद्यार्थ्यांचा आनंददायी गट फोटो (Group Photo)" },
+];
 const GallerySection = () => {
   const [current, setCurrent] = useState(0);
 
