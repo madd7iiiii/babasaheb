@@ -69,11 +69,11 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* Map placeholder - ✅ UPDATED LINK HERE */}
+          {/* Map placeholder */}
           <div className="bg-card rounded-xl border border-border shadow-sm overflow-hidden">
             <iframe
               title="शाळेचा नकाशा"
-              src="https://maps.google.com/maps?q=Bharatratna%20Dr.%20Babasaheb%20Ambedkar%20Matimand%20Mula-Mulinchi%20Niwasi%20Vishesh%20Shala%20Hinganghat&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d887.8858340150744!2d78.8350239!3d20.5300634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd371f1c1ef7cad%3A0xf4fbe23fa760cfb6!2sBHARAT%20RATNA%20DR.%20BABA%20SAHEB%20AMBEDKAR%20MATIMAND%20MULA%20MULICHI%20NIWASI%20VISHESH%20SCHOOL!5e1!3m2!1sen!2sin!4v1770557581978!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
