@@ -3,7 +3,7 @@ import AnimatedCounter from "./AnimatedCounter";
 const stats = [
   {
     value: 40,
-    suffix: "",
+    suffix: "+",
     label: "विद्यार्थी",
     duration: 1000,
     delay: 0,
